@@ -6,10 +6,9 @@ void DistanceSensor()
 
   SetupServo();
 
-  if (distance <= 10) {
-    hasTarget = true;
-  }
-  else {
+  if (distance <= 10) 
+    hasTarget = true;  
+  else 
     hasTarget = false;
-  }
+  
 }

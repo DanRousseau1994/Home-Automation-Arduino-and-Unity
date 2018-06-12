@@ -5,7 +5,8 @@ void SetupServo()
 
 void ServoOpen(String command)
 {
-  if (hasTarget != true) {
+  if (hasTarget != true) 
+  {
     pcSerial.println("Not Close Enough To Sensor");
     return;
   }
