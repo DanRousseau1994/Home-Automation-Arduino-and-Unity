@@ -1,5 +1,3 @@
-
-//DOOR CODE
 void SetupServo()
 {
   myServo.attach(9);
@@ -21,4 +19,3 @@ void ServoClose(String command)
   myServo.write(150);
   pcSerial.println(command);
 }
-//END DOOR CODE
