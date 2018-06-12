@@ -1,4 +1,3 @@
-//LED STUFF
 void LightsOn()
 {
   //Turn On Light LED
@@ -12,4 +11,3 @@ void LightsOff()
   digitalWrite(LED_BUILTIN, LOW);
   pcSerial.println("LIGHTS ARE OFF");
 }
-//END LED STUFF
